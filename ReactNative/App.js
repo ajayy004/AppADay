@@ -36,7 +36,10 @@ const App = () => {
           text: '#fdfffc',
         },
       }}>
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={({route, navigation}) => ({
+          headerShown: 'screen',
+        })}>
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
         {screens.map((row, key) => (
           <Stack.Screen {...row} {...{key}} />

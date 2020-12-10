@@ -1,9 +1,8 @@
-import React, {useRef} from 'react';
-import {View, Text, Platform, StatusBar} from 'react-native';
+import React from 'react';
+import {View, Text} from 'react-native';
 import Animated from 'react-native-reanimated';
 
-const HEADER_HEIGHT =
-  Platform.OS === 'ios' ? 115 : 70 + StatusBar.currentHeight;
+const HEADER_HEIGHT = 70;
 
 const dataSet = [
   {
@@ -40,14 +39,13 @@ const AirbnbHeaderAnimation = () => {
           transform: [{translateY: headerY}],
           alignItems: 'center',
           justifyContent: 'center',
-          paddingTop: 45,
         }}>
         <Text>Header Animation</Text>
       </Animated.View>
       <Animated.ScrollView
         bounces={false}
         scrollEventThrottle={16}
-        contentContainerStyle={{paddingTop: 120}}
+        contentContainerStyle={{paddingTop: HEADER_HEIGHT + 10}}
         onScroll={Animated.event([
           {
             nativeEvent: {contentOffset: {y: scrollY}},
