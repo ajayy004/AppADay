@@ -2,8 +2,17 @@ import TwitterHeaderAnimation from './Twitter-Header-Animation';
 import AppleAppStoreCardAnimation from './Apple-AppStore-Card-Animation';
 import AirbnbHeaderAnimation from './Airbnb-Header-Animation';
 import SharedElementTransitionNavigation from './Shared-Element-Transition-Navigation';
+import SliderPerspective from './Slider-Perspective';
 
 export default [
+  {
+    name: SliderPerspective.title,
+    component: SliderPerspective,
+    path: SliderPerspective.route,
+    options: {
+      headerShown: false,
+    },
+  },
   {
     name: SharedElementTransitionNavigation.title,
     component: SharedElementTransitionNavigation,
