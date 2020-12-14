@@ -4,6 +4,8 @@
 
 | TBD                 | App                                                                                               | Overview |
 | ------------------- | ------------------------------------------------------------------------------------------------- | -------- |
+| :white_circle:      | [Drawer Menu](/)                                                                                  |          |
+| :white_circle:      | [Liquid Bottom Tab](/)                                                                            |          |
 | :white_circle:      | [Uber Eats Menu Header](/)                                                                        |          |
 | :white_circle:      | [Uber Eats Search](/)                                                                             |          |
 | :white_circle:      | [Uber Eats Range Slider](/)                                                                       |          |
