@@ -3,8 +3,18 @@ import AppleAppStoreCardAnimation from './Apple-AppStore-Card-Animation';
 import AirbnbHeaderAnimation from './Airbnb-Header-Animation';
 import SharedElementTransitionNavigation from './Shared-Element-Transition-Navigation';
 import SliderPerspective from './Slider-Perspective';
+import TwitterAppLoader from './Twitter-App-Loader';
 
 export default [
+  {
+    name: TwitterAppLoader.name,
+    title: TwitterAppLoader.title,
+    component: TwitterAppLoader,
+    path: TwitterAppLoader.route,
+    options: {
+      title: TwitterAppLoader.title,
+    },
+  },
   {
     name: SliderPerspective.title,
     component: SliderPerspective,

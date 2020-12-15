@@ -13,7 +13,7 @@
 | :white_circle:      | [Bottom Tab](/)                                                                                   |          |
 | :white_circle:      | [Parallax Carousel](/)                                                                            |          |
 | :white_circle:      | [Vertical Carousel](/)                                                                            |          |
-| :white_circle:      | [Twitter App Loading](/)                                                                          |          |
+| :large_blue_circle: | [Twitter App Loader](/ReactNative/screens/Twitter-App-Loader)                                     |          |
 | :large_blue_circle: | [Slider Perspective](/ReactNative/screens/Slider-Perspective)                                     |          |
 | :large_blue_circle: | [Shared Element Transition Navigation](/ReactNative/screens/Shared-Element-Transition-Navigation) |          |
 | :large_blue_circle: | [Apple AppStore Card Animation](/ReactNative/screens/Apple-AppStore-Card-Animation)               |          |

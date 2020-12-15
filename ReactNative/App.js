@@ -18,7 +18,7 @@ const HomeScreen = ({navigation}) => (
         activeOpacity={0.4}
         style={styles.button}
         onPress={() => navigation.navigate(item.name)}>
-        <Text style={styles.buttonText}>{item.name}</Text>
+        <Text style={styles.buttonText}>{item.title || item.name}</Text>
       </TouchableOpacity>
     )}
   />
