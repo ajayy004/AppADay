@@ -56,8 +56,7 @@ const styles = StyleSheet.create({
   },
 });
 
-TwitterAppLoader.route = '/twitter-app-loader';
+TwitterAppLoader.name = '/twitter-app-loader';
 TwitterAppLoader.title = 'Twitter App Loader';
-TwitterAppLoader.name = 'twitter-app-loader';
 
 export default TwitterAppLoader;

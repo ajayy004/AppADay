@@ -125,7 +125,7 @@ const TwitterHeaderAnimation = () => {
   );
 };
 
-TwitterHeaderAnimation.route = '/twitter-header-animation';
+TwitterHeaderAnimation.name = '/twitter-header-animation';
 TwitterHeaderAnimation.title = 'Twitter Header Animation';
 
 export default TwitterHeaderAnimation;

@@ -43,7 +43,7 @@ const SharedElementTransitionNavigation = () => {
   );
 };
 
-SharedElementTransitionNavigation.route =
+SharedElementTransitionNavigation.name =
   '/shared-element-transition-navigation-list';
 SharedElementTransitionNavigation.title =
   'Shared Element Transition Navigation';

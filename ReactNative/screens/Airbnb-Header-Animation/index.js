@@ -67,7 +67,7 @@ const AirbnbHeaderAnimation = () => {
   );
 };
 
-AirbnbHeaderAnimation.route = '/airbnb-header-animation';
+AirbnbHeaderAnimation.name = '/airbnb-header-animation';
 AirbnbHeaderAnimation.title = 'Airbnb Header Animation';
 
 export default AirbnbHeaderAnimation;

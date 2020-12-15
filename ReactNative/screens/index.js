@@ -7,41 +7,47 @@ import TwitterAppLoader from './Twitter-App-Loader';
 
 export default [
   {
-    name: TwitterAppLoader.name,
-    title: TwitterAppLoader.title,
     component: TwitterAppLoader,
-    path: TwitterAppLoader.route,
+    name: TwitterAppLoader.name,
     options: {
       title: TwitterAppLoader.title,
     },
   },
   {
-    name: SliderPerspective.title,
     component: SliderPerspective,
-    path: SliderPerspective.route,
+    name: SliderPerspective.name,
     options: {
       headerShown: false,
+      title: SliderPerspective.title,
     },
   },
   {
-    name: SharedElementTransitionNavigation.title,
     component: SharedElementTransitionNavigation,
-    path: SharedElementTransitionNavigation.route,
+    name: SharedElementTransitionNavigation.name,
+    options: {
+      title: SharedElementTransitionNavigation.title,
+    },
   },
   {
-    name: AirbnbHeaderAnimation.title,
     component: AirbnbHeaderAnimation,
-    path: AirbnbHeaderAnimation.route,
+    name: AirbnbHeaderAnimation.name,
+    options: {
+      title: AirbnbHeaderAnimation.title,
+    },
   },
   {
-    name: TwitterHeaderAnimation.title,
     component: TwitterHeaderAnimation,
-    path: TwitterHeaderAnimation.route,
+    name: TwitterHeaderAnimation.name,
+    options: {
+      title: TwitterHeaderAnimation.title,
+    },
   },
   {
-    name: AppleAppStoreCardAnimation.title,
     component: AppleAppStoreCardAnimation,
-    path: AppleAppStoreCardAnimation.route,
+    name: AppleAppStoreCardAnimation.name,
+    options: {
+      title: AppleAppStoreCardAnimation.title,
+    },
   },
 ];
 

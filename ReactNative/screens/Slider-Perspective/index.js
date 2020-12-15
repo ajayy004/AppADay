@@ -125,7 +125,8 @@ const styles = StyleSheet.create({
     color: 'white',
   },
 });
-SliderPerspective.route = '/slider-perspective';
+
+SliderPerspective.name = '/slider-perspective';
 SliderPerspective.title = 'Slider Perspective';
 
 export default SliderPerspective;

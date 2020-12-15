@@ -56,7 +56,7 @@ const AppleAppStoreCardAnimation = () => {
   );
 };
 
-AppleAppStoreCardAnimation.route = '/twitter-header-animation';
+AppleAppStoreCardAnimation.name = '/apple-app-store-card-animation';
 AppleAppStoreCardAnimation.title = 'Apple App Store Card Animation';
 
 export default AppleAppStoreCardAnimation;

@@ -18,7 +18,7 @@ const HomeScreen = ({navigation}) => (
         activeOpacity={0.4}
         style={styles.button}
         onPress={() => navigation.navigate(item.name)}>
-        <Text style={styles.buttonText}>{item.title || item.name}</Text>
+        <Text style={styles.buttonText}>{item.options.title}</Text>
       </TouchableOpacity>
     )}
   />
@@ -40,7 +40,11 @@ const App = () => {
         screenOptions={({route, navigation}) => ({
           headerShown: 'screen',
         })}>
-        <Stack.Screen name="HomeScreen" component={HomeScreen} />
+        <Stack.Screen
+          name="HomeScreen"
+          component={HomeScreen}
+          options={{title: 'Home'}}
+        />
         {screens.map((row, key) => (
           <Stack.Screen {...row} {...{key}} />
         ))}
