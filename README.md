@@ -8,6 +8,9 @@
 | :white_circle:      | [Uber Eats Search](/)                                                                             |          |
 | :white_circle:      | [Uber Eats Range Slider](/)                                                                       |          |
 | :white_circle:      | [Uber Eats Header](/)                                                                             |          |
+| :white_circle:      | [Bottom Tab](/)                                                                                   |          |
+| :white_circle:      | [Parallax Carousel](/)                                                                            |          |
+| :white_circle:      | [Vertical Carousel](/)                                                                            |          |
 | :white_circle:      | [Twitter App Loading](/)                                                                          |          |
 | :large_blue_circle: | [Slider Perspective](/ReactNative/screens/Slider-Perspective)                                     |          |
 | :large_blue_circle: | [Shared Element Transition Navigation](/ReactNative/screens/Shared-Element-Transition-Navigation) |          |
