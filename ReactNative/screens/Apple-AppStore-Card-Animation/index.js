@@ -47,11 +47,6 @@ const AppleAppStoreCardAnimation = () => {
         ))}
       </ScrollView>
       {activeModal != null && <Modal {...activeModal} onClose={_close} />}
-      {/* <Modal
-        app={{backgroundColor: 'red', height: 200, margin: 10}}
-        position={{height: 200, width: 394, x: 10, y: 102}}
-        onClose={_close}
-      /> */}
     </View>
   );
 };

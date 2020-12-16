@@ -14,7 +14,7 @@ const TwitterHeaderAnimation = () => {
     outputRange: [HEADER_MAX_HEIGHT, HEADER_MIN_HEIGHT],
     extrapolate: 'clamp',
   });
-  const headerZindex = scrollY.interpolate({
+  const headerZIndex = scrollY.interpolate({
     inputRange: [0, HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT],
     outputRange: [0, 1],
     extrapolate: 'clamp',
@@ -59,7 +59,7 @@ const TwitterHeaderAnimation = () => {
           right: 0,
           backgroundColor: '#90e0ef',
           height: headerHeight,
-          zIndex: headerZindex,
+          zIndex: headerZIndex,
           alignItems: 'center',
         }}>
         <Animated.View

@@ -20,11 +20,13 @@ const dataSet = [
 ];
 const AirbnbHeaderAnimation = () => {
   const scrollY = new Animated.Value(0);
-  const diffclamp = Animated.diffClamp(scrollY, 0, HEADER_HEIGHT);
-  const headerY = Animated.interpolate(diffclamp, {
+  const diffClamp = Animated.diffClamp(scrollY, 0, HEADER_HEIGHT);
+
+  const headerY = Animated.interpolate(diffClamp, {
     inputRange: [0, HEADER_HEIGHT],
     outputRange: [0, -HEADER_HEIGHT],
   });
+
   return (
     <View style={{flex: 1}}>
       <Animated.View

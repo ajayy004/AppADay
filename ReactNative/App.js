@@ -37,7 +37,7 @@ const App = () => {
         },
       }}>
       <Stack.Navigator
-        screenOptions={({route, navigation}) => ({
+        screenOptions={() => ({
           headerShown: 'screen',
         })}>
         <Stack.Screen

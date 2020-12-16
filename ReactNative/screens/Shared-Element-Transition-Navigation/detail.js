@@ -2,7 +2,7 @@ import React, {useRef} from 'react';
 import {View, Text, Animated} from 'react-native';
 import {SharedElement} from 'react-navigation-shared-element';
 
-const SharedElementTransitionNavigationDetail = ({route, navigation}) => {
+const SharedElementTransitionNavigationDetail = ({route}) => {
   const {params} = route;
   const mountedAnimation = useRef(new Animated.Value(0)).current;
   const translateY = mountedAnimation.interpolate({
@@ -62,11 +62,7 @@ const SharedElementTransitionNavigationDetail = ({route, navigation}) => {
   );
 };
 
-SharedElementTransitionNavigationDetail.sharedElements = (
-  route,
-  otherRoute,
-  showing,
-) => {
+SharedElementTransitionNavigationDetail.sharedElements = (route) => {
   const {id} = route.params;
   return [
     {
