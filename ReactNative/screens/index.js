@@ -4,8 +4,16 @@ import AirbnbHeaderAnimation from './Airbnb-Header-Animation';
 import SharedElementTransitionNavigation from './Shared-Element-Transition-Navigation';
 import SliderPerspective from './Slider-Perspective';
 import TwitterAppLoader from './Twitter-App-Loader';
+import FloatingActionButtonAnimation from './Floating-Action-Button-Animation';
 
 export default [
+  {
+    component: FloatingActionButtonAnimation,
+    name: FloatingActionButtonAnimation.name,
+    options: {
+      title: FloatingActionButtonAnimation.title,
+    },
+  },
   {
     component: TwitterAppLoader,
     name: TwitterAppLoader.name,
