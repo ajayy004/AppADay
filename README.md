@@ -17,6 +17,7 @@
 | :white_circle:      | [Bottom Tab](/)                                                                                   |          |
 | :white_circle:      | [Parallax Carousel](/)                                                                            |          |
 | :white_circle:      | [Vertical Carousel](/)                                                                            |          |
+| :white_circle:      | [Medium Sticky Footer](/)                                                                         |          |
 | :large_blue_circle: | [Floating Action Button Animation](/ReactNative/screens/Floating-Action-Button-Animation)         |          |
 | :large_blue_circle: | [Twitter App Loader](/ReactNative/screens/Twitter-App-Loader)                                     |          |
 | :large_blue_circle: | [Slider Perspective](/ReactNative/screens/Slider-Perspective)                                     |          |
